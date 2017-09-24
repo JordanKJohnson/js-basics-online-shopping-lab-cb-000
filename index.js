@@ -37,6 +37,10 @@ function total() {
 
 function removeFromCart(item) {
   cart.slice(item);
+
+  if (cart[item] == null){
+    console.log("Sorry, we don't have a credit card on file for you.");
+  }
 }
 
 function placeOrder(cardNumber) {
