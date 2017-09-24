@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var obj = new Object();
+ var obj = {};
  obj.name = item;
  obj.value = Math.floor(Math.random()*100);
  cart.push(obj);
