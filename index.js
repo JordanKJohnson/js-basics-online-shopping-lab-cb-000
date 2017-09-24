@@ -28,7 +28,7 @@ function viewCart() {
 }
 
 function total() {
-  var total;
+  var total = 0.00;
   for (var i = 0; i < cart.length; i++){
     total += cart[i].price;
   }
