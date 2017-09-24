@@ -36,7 +36,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  cart.slice(item);
 }
 
 function placeOrder(cardNumber) {
