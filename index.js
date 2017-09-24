@@ -10,8 +10,8 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
- cart.push(item,Math.random(100));
+ Object obj = item;
+ cart.push(obj,Math.random(100));
  return cart;
 }
 
