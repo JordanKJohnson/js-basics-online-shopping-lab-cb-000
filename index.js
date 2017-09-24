@@ -22,8 +22,8 @@ function viewCart() {
   if (cart.length === 0){
     return console.log("Your shopping cart is empty.");
   }
-  else if(cart.length===1){
-    return console.log("In your cart, you have lemons at "+cart[0]+".");
+  if else(cart.length===1){
+    return console.log("In your cart, you have "+cart[0].name+" at "+cart[0]+".");
   }
 }
 
