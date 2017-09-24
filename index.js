@@ -14,6 +14,7 @@ function addToCart(item) {
  obj.name = item;
  obj.value = Math.random(100);
  cart.push(obj);
+ console.log(item+" has been added to your cart.");
  return cart;
 }
 
