@@ -49,5 +49,6 @@ function placeOrder(cardNumber) {
   }
   else{
     cart.length = 0;
+    return console.log("Your total cost is "+total()+"");
   }
 }
